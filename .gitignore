@@ -1,0 +1,6 @@
+# Individual day repos (each is a separate GitHub repo)
+day-*/
+pomodoro-mobile/
+
+# OS files
+.DS_Store
