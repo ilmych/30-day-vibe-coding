@@ -269,6 +269,51 @@ Supabase gives you auth + database in one service. Combined with Streamlit Cloud
 
 ---
 
+## Day 8 - Color Palette Generator
+**Date**: January 15, 2026
+**Status**: Complete
+**Category**: Fun/Design
+**Difficulty**: Medium
+**Time**: ~30 minutes
+
+### What I Built
+A visual color palette generator with lock, copy, and share features.
+
+### Build Notes
+**Stack:**
+- Single HTML file (HTML/CSS/JS)
+- No dependencies, works offline
+
+**Features:**
+- 5-color full-screen palette
+- Click to copy hex code
+- Lock colors you like, regenerate the rest
+- Spacebar shortcut for quick generation
+- Color info: hex, RGB, HSL, approximate name
+- Shareable URLs (palette encoded in hash)
+- Responsive design
+
+### Key Pattern: URL State
+Encoding app state in the URL hash makes sharing trivial:
+```javascript
+const colors = palette.map(c => c.hex.substring(1)).join('-');
+window.history.replaceState(null, '', `#${colors}`);
+```
+No backend needed - the URL IS the data.
+
+### Prompts Used
+```
+"yes, let's do it"
+"there's an issue with the lock button"
+"perfect. let's publish!"
+```
+
+### Links
+- Live: https://ilmych.github.io/day-08-color-palette/
+- GitHub: https://github.com/ilmych/day-08-color-palette
+
+---
+
 ## Summary Stats
 
 | Day | App | Time | Deployed |
@@ -280,6 +325,7 @@ Supabase gives you auth + database in one service. Combined with Streamlit Cloud
 | 5 | Deadline Dice | 2 hrs | GitHub |
 | 6 | Sleep Cutoff | 1.5 hrs | GitHub |
 | 7 | Weekly Reflection | 1.5 hrs | Streamlit Cloud |
+| 8 | Color Palette | 30 min | GitHub Pages |
 
-**Total**: ~10 hours for 7 complete apps
-**Progress**: 7/30 (23%)
+**Total**: ~10.5 hours for 8 complete apps
+**Progress**: 8/30 (27%)
