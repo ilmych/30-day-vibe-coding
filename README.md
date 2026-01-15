@@ -24,7 +24,7 @@
 | 4 | Flashcard Quiz | Done | [Try it](https://ilmych.github.io/day-04-flashcard-quiz/) | [GitHub](https://github.com/ilmych/day-04-flashcard-quiz) |
 | 5 | Deadline Dice | Done | iOS app | [GitHub](https://github.com/ilmych/day-05-deadline-dice) |
 | 6 | Sleep Cutoff Calculator | Done | iOS app | [GitHub](https://github.com/ilmych/day-06-sleep-cutoff) |
-| 7 | Weekly Reflection Journal | - | - | - |
+| 7 | Weekly Reflection Journal | Done | [Try it](https://weekly-reflection.streamlit.app) | [GitHub](https://github.com/ilmych/day-07-weekly-reflection) |
 | 8 | Color Palette Generator | - | - | - |
 | 9 | Timezone Pair | - | - | - |
 | 10 | Daily Prompt Jar | - | - | - |
@@ -49,17 +49,18 @@
 | 29 | Portfolio Day | - | - | - |
 | 30 | Challenge Recap Dashboard | - | - | - |
 
-**Current Progress**: 6/30 (20%)
+**Current Progress**: 7/30 (23%)
 
 ## Stats
 
 | Metric | Value |
 |--------|-------|
-| Apps completed | 6 |
-| Total build time | ~8 hours |
-| Web apps | 4 |
+| Apps completed | 7 |
+| Total build time | ~10 hours |
+| Web apps | 5 |
 | iOS apps | 3 |
 | Chrome extensions | 1 |
+| Streamlit apps | 1 |
 
 ## Blog Posts
 

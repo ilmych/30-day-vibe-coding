@@ -220,6 +220,55 @@ iOS app that calculates when to stop caffeine, screens, and eating based on your
 
 ---
 
+## Day 7 - Weekly Reflection Journal
+**Date**: January 15, 2026
+**Status**: Complete
+**Category**: Lifestyle/Productivity
+**Difficulty**: Medium
+**Time**: ~1.5 hours
+
+### What I Built
+A weekly journaling app with guided prompts and cloud sync.
+
+### Build Notes
+**Stack:**
+- Streamlit for UI
+- Supabase for auth + Postgres database
+- Streamlit Community Cloud for hosting
+
+**Features:**
+- Email/password authentication
+- 4 reflection prompts (went well, challenges, learned, focus)
+- 5-point week rating
+- Stats: streak, average rating, total entries
+- Browse past weeks in sidebar
+
+**Evolution:**
+- Started with local JSON storage
+- Added Supabase auth for multi-user support
+- Deployed to Streamlit Cloud
+
+### Key Pattern: Supabase + Streamlit
+Supabase gives you auth + database in one service. Combined with Streamlit Cloud's secrets management, you get a full-stack app with zero backend code.
+
+### Prompts Used
+```
+"let's do day 7 please"
+"please use the ui builder agent when building the ui for this app"
+"how are reflections saved across sessions?"
+"what if i deploy this as an app and someone else uses it?"
+"login is the way to go imo"
+"let's just have email + password for now"
+"there are some issues in the login page. everything is very blank"
+"let's publish this"
+```
+
+### Links
+- Live: https://weekly-reflection.streamlit.app
+- GitHub: https://github.com/ilmych/day-07-weekly-reflection
+
+---
+
 ## Summary Stats
 
 | Day | App | Time | Deployed |
@@ -230,6 +279,7 @@ iOS app that calculates when to stop caffeine, screens, and eating based on your
 | 4 | Flashcard Quiz | 1 hr | GitHub Pages |
 | 5 | Deadline Dice | 2 hrs | GitHub |
 | 6 | Sleep Cutoff | 1.5 hrs | GitHub |
+| 7 | Weekly Reflection | 1.5 hrs | Streamlit Cloud |
 
-**Total**: ~8 hours for 6 complete apps
-**Progress**: 6/30 (20%)
+**Total**: ~10 hours for 7 complete apps
+**Progress**: 7/30 (23%)
