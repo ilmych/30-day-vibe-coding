@@ -314,6 +314,49 @@ No backend needed - the URL IS the data.
 
 ---
 
+## Day 9 - Timezone Pair
+**Date**: January 15, 2026
+**Status**: Complete
+**Category**: Utility
+**Difficulty**: Medium
+**Time**: ~45 minutes
+
+### What I Built
+A timezone overlap finder with 150+ cities and custom working hours.
+
+### Build Notes
+**Stack:**
+- Single HTML file (HTML/CSS/JS)
+- No dependencies, works offline
+
+**Features:**
+- 150+ cities searchable by name
+- Shows current time in selected cities
+- Custom working hours selector
+- Visual 24-hour timeline with overlap
+- Best meeting time suggestion
+- Quick pairs for common combinations
+- Shareable URLs (settings encoded in URL)
+- Auto-detect local timezone
+- Copy meeting time to clipboard
+
+### Key Pattern: Searchable City Dropdown
+Instead of showing timezone codes (America/New_York), show city names with typeahead search. Much better UX.
+
+### Prompts Used
+```
+"let's do timezone pair now"
+"we need to add more cities, and a typing option"
+"keep the functionality, but change the UI to look better"
+"ok looks good. let's publish"
+```
+
+### Links
+- Live: https://ilmych.github.io/day-09-timezone-pair/
+- GitHub: https://github.com/ilmych/day-09-timezone-pair
+
+---
+
 ## Summary Stats
 
 | Day | App | Time | Deployed |
@@ -326,6 +369,7 @@ No backend needed - the URL IS the data.
 | 6 | Sleep Cutoff | 1.5 hrs | GitHub |
 | 7 | Weekly Reflection | 1.5 hrs | Streamlit Cloud |
 | 8 | Color Palette | 30 min | GitHub Pages |
+| 9 | Timezone Pair | 45 min | GitHub Pages |
 
-**Total**: ~10.5 hours for 8 complete apps
-**Progress**: 8/30 (27%)
+**Total**: ~11.25 hours for 9 complete apps
+**Progress**: 9/30 (30%)
